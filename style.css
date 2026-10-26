@@ -32,6 +32,8 @@ body > header{
     color: beige;
     padding-top: 30px;
     text-align: center;
+    margin: 0;
+    width: 100%;
 }
 header h1{
     text-align: center;
