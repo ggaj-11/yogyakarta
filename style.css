@@ -1,0 +1,75 @@
+body{
+    background-color: beige;
+    font-family: "Quicksand", sans-serif;
+}
+
+nav {
+    background-color: burlywood
+
+}
+nav a{
+    text-decoration: none;
+    color:rgb(72, 2, 46);
+}
+a:hover {
+    color:rgb(56, 2, 2);
+    font-weight: bold;
+}
+a:hover::after{
+    content: "🏯";
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+
+body > header{
+    background-color:rgb(72, 2, 46);
+    color: beige;
+    padding-top: 30px;
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    padding-bottom: 0px;
+}
+header p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+ main{
+    display: flex;
+    margin: 40px;
+    gap: 20px;
+ }
+ #content {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* flex 3  pembagiannya 75% */
+    flex: 3;
+    padding: 10px;
+    border-radius: 20px;
+ }
+
+ aside{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex: 1;
+    text-align: center;
+    border-radius: 20px;
+ }
+
+ section h4, table, th{
+    text-align: center;
+ }
+
+ h2 {
+    color: rgb(72, 2, 46);
+ }
+
+h3{
+    color: rgb(152, 12, 101); ;
+}
