@@ -1,81 +1,132 @@
+/* edit body */
 *{
     margin: 0px;
     padding: 0px;
 }
-body{
+body {
     background-color: beige;
     font-family: "Quicksand", sans-serif;
 }
-
-nav {
-    background-color: burlywood
-
+main > div  p {
+      text-indent: 50px;
+      font-family: "Times New Roman", Times, serif;
+      padding-bottom: 5px;
 }
+
+/* edit nav */
 nav a{
     text-decoration: none;
-    color:rgb(72, 2, 46);
+    color: rgb(72, 2, 46);
 }
-a:hover {
-    color:rgb(56, 2, 2);
-    font-weight: bold;
+nav {
+    background-color: burlywood
+    
 }
-a:hover::after{
-    content: "🏯";
-}
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* edit a */
+a:hover {
+    color: rgb(72, 2, 46);
+    font-weight: bold;
+}
+a:hover::after {
+    content: "🏯";
 }
 
 
-body > header{
-    background-color:rgb(72, 2, 46);
-    color: beige;
-    padding-top: 30px;
-    text-align: center;
-    margin: 0;
-    width: 100%;
+/* edit header */
+body > header {
+    background-color: rgb(72, 2, 46);
+    color: bisque;
+    padding-top: 20px;
 }
 header h1{
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 15px;
+    font-family: "Times New Roman", Times, serif;
 }
-header p{
+header h3{
+    padding-bottom: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+header p {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
 }
- main{
-    display: flex;
-    margin: 40px;
-    gap: 20px;
- }
- #content {
-    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* flex 3  pembagiannya 75% */
-    flex: 3;
-    padding: 10px;
-    border-radius: 20px;
- }
 
- aside{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+aside{
     flex: 1;
-    text-align: center;
     border-radius: 20px;
- }
-
- section h4, table, th{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
- }
+    padding: 10px;
+}
 
- h2 {
+
+h3, h4 {
     color: rgb(72, 2, 46);
- }
+    padding: 5px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
 
-h3{
-    color: rgb(152, 12, 101); ;
+
+
+/* edit table */
+table {
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+tr:hover {background-color: rgb(120, 82, 32);}
+
+
+/* edit main */
+main {
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+}
+
+#content{
+    /* flex 3 artinya pembagian luas, 75% */
+    flex: 3;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#Sejarah{
+    padding: 10px;
+}
+#Geografis{
+    padding: 10px;
+}
+#Wisata{
+    padding: 10px;
+}
+img{
+    padding-bottom: 10px;
+     border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgb(72, 2, 46);
+}
+
+
+/* edit footer */
+footer{
+    color: white;
+    background-color: rgb(72, 2, 46);
+    text-align: center;
 }
